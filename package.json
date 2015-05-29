@@ -1,6 +1,6 @@
 {
   "name": "machinepack-googleapisurlshortener",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "API will have several methods to work with Google URL Shortener",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
