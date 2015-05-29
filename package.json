@@ -1,0 +1,35 @@
+{
+  "name": "machinepack-googleapisurlshortener",
+  "version": "0.1.1",
+  "description": "API will have several methods to work with Google URL Shortener",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Google APIs URL Shortener",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^2.0.4",
+    "lodash": "^3.9.3",
+    "machine": "^9.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irlnathan/machinepack-klout.git"
+  },
+  "machinepack": {
+    "friendlyName": "Google APIs URL Shortener",
+    "machineDir": "machines/",
+    "machines": [
+      "url-get",
+      "url-insert"
+    ]
+  }
+}
