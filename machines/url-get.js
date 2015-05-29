@@ -53,18 +53,18 @@ module.exports = {
 
 
   exits: {
-    error: {
-      description: 'Error decoding URL'
-    },
     invalidParameter: {
+      variableName: 'err',
       description: 'Invalid field parameter passed'
     },
     dailyLimitExceededUnreg: {
+      variableName: 'err',
       description: 'Daily Limit for Unauthenticated Use Exceeded. Continued use requires signup.'
     },
     success: {
-      variableName: 'longUrl',
+      variableName: 'result',
       description: 'Done.',
+      example: ''
     }
   },
 

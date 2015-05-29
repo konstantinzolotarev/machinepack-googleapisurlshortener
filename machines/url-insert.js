@@ -70,12 +70,8 @@ module.exports = {
     },
 
     success: {
-      variableName: 'shortUrl',
+      variableName: 'result',
       description: 'Defaults success hadler',
-    },
-
-    error: {
-      description: 'Default error handler'
     }
   },
 
