@@ -29,7 +29,8 @@
     "machineDir": "machines/",
     "machines": [
       "url-get",
-      "url-insert"
+      "url-insert",
+      "url-list"
     ]
   }
 }
