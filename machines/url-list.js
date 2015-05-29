@@ -41,18 +41,16 @@ module.exports = {
 
   exits: {
     unauthorized: {
-      variableName: 'err',
       description: 'Authorization error. Login required.'
     },
 
     invalidParameter: {
-      variableName: 'err',
       description: 'Invalid field parameter passed'
     },
 
     success: {
       variableName: 'result',
-      description: 'List of urls that user sent.',
+      description: 'List of urls that user sent.'
     },
 
   },

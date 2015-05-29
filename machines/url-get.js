@@ -54,17 +54,16 @@ module.exports = {
 
   exits: {
     invalidParameter: {
-      variableName: 'err',
       description: 'Invalid field parameter passed'
     },
+
     dailyLimitExceededUnreg: {
-      variableName: 'err',
       description: 'Daily Limit for Unauthenticated Use Exceeded. Continued use requires signup.'
     },
+
     success: {
       variableName: 'result',
-      description: 'Done.',
-      example: ''
+      description: 'Done.'
     }
   },
 

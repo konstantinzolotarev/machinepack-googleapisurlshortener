@@ -60,7 +60,6 @@ module.exports = {
   },
 
   exits: {
-
     invalidParameter: {
       description: 'Invalid field parameter passed'
     },
@@ -71,7 +70,7 @@ module.exports = {
 
     success: {
       variableName: 'result',
-      description: 'Defaults success hadler',
+      description: 'Defaults success hadler'
     }
   },
 
