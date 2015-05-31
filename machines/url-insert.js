@@ -91,7 +91,6 @@ module.exports = {
     _.merge(params.resource, inputParams);
     urlshortener.url.insert(params, function(err, response) {
       if (err) {
-        console.log(err);
         if (!err.code) {
           return exits.errro(err);
         }
